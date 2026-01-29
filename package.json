@@ -1,0 +1,31 @@
+{
+  "name": "playwright-saucedemo",
+  "version": "1.0.0",
+  "description": "Automation test using playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajengffebrianty/playwright-saucedemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajengffebrianty/playwright-saucedemo/issues"
+  },
+  "homepage": "https://github.com/ajengffebrianty/playwright-saucedemo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.0.10"
+  }
+}
